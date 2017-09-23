@@ -41,6 +41,9 @@
 
 /* Exported types ------------------------------------------------------------*/
 /* Exported constants --------------------------------------------------------*/
+#ifndef NULL
+#define NULL 0
+#endif
 
 /* If an external clock source is used, then the value of the following define 
    should be set to the value of the external clock source, else, if no external 
